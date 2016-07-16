@@ -71,3 +71,22 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .clr {
   clear:both;
 }
+
+.field_with_errors {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding:8px;
+  margin:10px;
+}
+
+.form-inputs {
+  margin-left: 10px;
+}
+
+#user_remember_me {
+  margin-left: 110px;
+  margin-top: -7px;
+  border: 0px;
+  box-shadow: none;
+}
