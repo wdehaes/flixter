@@ -37,7 +37,7 @@ gem 'simple_form'
 gem 'carrierwave', '0.11.2'
 gem 'figaro'
 gem 'fog'
-
+gem 'mini_magick', '~>4.3.1'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
