@@ -16,6 +16,4 @@
 
 //= require_tree .
 
-//=require bootstrap
-
 //=require jquery-ui
