@@ -1,6 +1,7 @@
 Flixter::Application.routes.draw do
   
   root 'static_pages#index'
+  get 'privacy', to: 'static_pages#privacy'
   devise_for :users
   resource :dashboard, only: [:show]
   resources :courses, only: [:index, :show] do
