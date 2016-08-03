@@ -34,7 +34,7 @@ gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
-gem 'devise', '~> 3.3.0'
+gem 'devise', '>= 4.2.0'
 gem 'simple_form'
 gem 'carrierwave', '0.11.2'
 gem 'figaro'
